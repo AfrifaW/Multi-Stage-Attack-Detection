@@ -1,0 +1,24 @@
+metric,value,note,dataset,seed,config_hash,timestamp_utc,mapping_variant,is_real_data
+raw_records_modality,network_flow (single CSV source),,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+raw_records_count,157800,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+raw_records_kept_after_adapter_cleaning,142095,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+unit_of_analysis,record-level (no trustworthy timestamp for windowing),,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+final_unified_instances,142095,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+feature_dimension,175,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+delta_t_seconds,,"N/A -- record-level fallback, see data_quality_report",edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+n_distinct_assets,17687,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+stage_count_Benign,24301,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+stage_count_IAD,41189,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+stage_count_LMEP,30775,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+stage_count_IMP,45830,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+split_count_train,68301,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+split_count_val,10804,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+split_count_test,62990,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+graph_nodes,142095,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+graph_interaction_edges,17685,undirected edges (endpoints / 2),edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+graph_temporal_edges,0,undirected edges (endpoints / 2),edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+graph_average_degree,0.2489,(interaction+temporal edge endpoints) / nodes,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+impact_positive_asset_count,17676,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+impact_negative_asset_count,11,,edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+impact_forecast_instances_total,,"N/A -- only 0.0% of rows have a genuine calendar date (month/day) in `frame.time` (< required 95.0%) -- the published ML-EdgeIIoT-dataset.csv is missing month/day for essentially every row (naive pandas parsing silently defaults it to Jan-1, which is NOT a real timestamp); real chronological Delta-t windowing, temporal graph edges, and pre-impact sequence construction are not valid on this field.",edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True
+impact_forecasting_valid_overall,False,"only 0.0% of rows have a genuine calendar date (month/day) in `frame.time` (< required 95.0%) -- the published ML-EdgeIIoT-dataset.csv is missing month/day for essentially every row (naive pandas parsing silently defaults it to Jan-1, which is NOT a real timestamp); real chronological Delta-t windowing, temporal graph edges, and pre-impact sequence construction are not valid on this field.",edgeiiotset,42,1fb5375796c5,2026-08-11T19:40:28Z,primary,True

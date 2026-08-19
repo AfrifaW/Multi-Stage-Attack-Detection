@@ -1,0 +1,32 @@
+metric,value,note,dataset,seed,config_hash,timestamp_utc,mapping_variant,is_real_data
+raw_records_modality,network_flow (single CSV source),,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+raw_records_count,461043,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+raw_records_kept_after_adapter_cleaning,461043,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+unit_of_analysis,asset-time-window (Delta t seconds),,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+final_unified_instances,11536,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+feature_dimension,104,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+delta_t_seconds,60,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+n_distinct_assets,11536,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+stage_count_Benign,11517,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+stage_count_IAD,3,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+stage_count_LMEP,5,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+stage_count_IMP,11,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+split_count_train,6922,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+split_count_val,2307,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+split_count_test,2307,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+graph_nodes,11536,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+graph_interaction_edges,11555,undirected edges (endpoints / 2),toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+graph_temporal_edges,0,undirected edges (endpoints / 2),toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+graph_average_degree,2.0033,(interaction+temporal edge endpoints) / nodes,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+impact_positive_asset_count,11,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+impact_negative_asset_count,11525,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+impact_forecast_instances_total,0,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+impact_forecast_positive_total,0,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+impact_forecast_negative_total,0,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+impact_forecast_positive_train,0,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+impact_forecast_negative_train,0,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+impact_forecast_positive_val,0,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+impact_forecast_negative_val,0,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+impact_forecast_positive_test,0,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+impact_forecast_negative_test,0,,toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True
+impact_forecasting_valid_overall,False,"zero pre-impact forecasting instances could be constructed at any split -- every asset's observed activity fits inside a single Delta-t window (no earlier 'cut point' exists before the asset's first IMP window, and/or no later window exists to confirm a negative).",toniot,42,4fe9230d5cf4,2026-08-11T19:39:25Z,primary,True

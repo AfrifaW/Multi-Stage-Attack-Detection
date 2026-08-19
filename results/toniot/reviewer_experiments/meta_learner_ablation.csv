@@ -1,0 +1,4 @@
+meta_learner,macro_f1,f1_benign,f1_iad,f1_lmep,f1_imp,mean_brier_score,training_time_s,dataset,seed,config_hash,timestamp_utc,mapping_variant,is_real_data
+logistic_regression,0.3430966898954704,0.9973867595818815,0.0,0.0,0.375,0.0020278499767528084,15.516,toniot,42,4fe9230d5cf4,2026-08-11T15:21:28Z,primary,True
+mlp,0.2497829861111111,0.9991319444444444,0.0,0.0,0.0,0.0009456996832844942,15.419,toniot,42,4fe9230d5cf4,2026-08-11T15:21:28Z,primary,True
+gradient_boosting,0.24956521739130436,0.9982608695652174,0.0,0.0,0.0,0.002333436836208891,16.851,toniot,42,4fe9230d5cf4,2026-08-11T15:21:28Z,primary,True

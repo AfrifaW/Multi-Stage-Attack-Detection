@@ -1,0 +1,7 @@
+graph_mode,model,macro_f1_test
+interaction_only,GCN,0.4745970237105003
+interaction_only,Stacked,0.549077621768101
+temporal_only,GCN,0.451936468988415
+temporal_only,Stacked,0.4475384378192363
+both,GCN,0.5683861380891773
+both,Stacked,0.5930009685033434

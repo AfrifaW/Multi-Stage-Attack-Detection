@@ -1,0 +1,7 @@
+component,latency_ms
+RF (per instance),123.69242916000076
+GCN (full-graph forward pass),17.162222700007987
+GCN (amortized per test node),0.0062612997811047014
+"Meta-learner (per instance, given RF+GCN proba)",0.17941002000952722
+"Stacked total (RF + GCN full-pass + meta, per instance amortized)",123.87810047979139
+Dual-stream GRU forecaster (per instance),0.9013656800016179

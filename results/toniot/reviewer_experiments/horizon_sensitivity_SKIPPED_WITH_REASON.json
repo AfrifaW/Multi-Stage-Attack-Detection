@@ -1,0 +1,18 @@
+{
+  "dataset": "toniot",
+  "experiment": "horizon_sensitivity",
+  "run": false,
+  "reasons": [
+    "instance-level gate failed at every candidate horizon: H=10: zero pre-impact forecasting instances could be constructed at any split -- every asset's observed activity fits inside a single Delta-t window (no earlier 'cut point' exists before the asset's first IMP window, and/or no later window exists to confirm a negative).; H=30: zero pre-impact forecasting instances could be constructed at any split -- every asset's observed activity fits inside a single Delta-t window (no earlier 'cut point' exists before the asset's first IMP window, and/or no later window exists to confirm a negative).; H=60: zero pre-impact forecasting instances could be constructed at any split -- every asset's observed activity fits inside a single Delta-t window (no earlier 'cut point' exists before the asset's first IMP window, and/or no later window exists to confirm a negative)."
+  ],
+  "_run_metadata": {
+    "dataset": "toniot",
+    "seed": 42,
+    "config_hash": "4fe9230d5cf4",
+    "timestamp_utc": "2026-08-11T20:44:15Z",
+    "split": null,
+    "mapping_variant": "primary",
+    "is_real_data": true,
+    "data_source_note": ""
+  }
+}

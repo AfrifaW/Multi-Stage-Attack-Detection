@@ -1,0 +1,8 @@
+component,latency_ms,dataset,seed,config_hash,timestamp_utc,mapping_variant,is_real_data
+feature_aggregation (per instance),17.606838966670086,toniot,42,4fe9230d5cf4,2026-08-11T15:24:55Z,primary,True
+RF scoring (per instance),153.15078063334417,toniot,42,4fe9230d5cf4,2026-08-11T15:24:55Z,primary,True
+GCN full-graph forward pass,12.718696433330479,toniot,42,4fe9230d5cf4,2026-08-11T15:24:55Z,primary,True
+GCN node scoring (amortized per test node),0.005513089047824222,toniot,42,4fe9230d5cf4,2026-08-11T15:24:55Z,primary,True
+Stacking meta-learner (per instance),0.7979477333416677,toniot,42,4fe9230d5cf4,2026-08-11T15:24:55Z,primary,True
+"End-to-end (per instance, all applicable stages)",171.56108042240376,toniot,42,4fe9230d5cf4,2026-08-11T15:24:55Z,primary,True
+"Throughput (instances/sec, end-to-end)",5.828827829353145,toniot,42,4fe9230d5cf4,2026-08-11T15:24:55Z,primary,True

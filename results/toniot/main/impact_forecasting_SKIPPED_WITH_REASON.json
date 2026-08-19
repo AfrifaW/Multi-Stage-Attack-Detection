@@ -1,0 +1,29 @@
+{
+  "dataset": "toniot",
+  "experiment": "impact_forecasting",
+  "run": false,
+  "gate": "instance-level (post sequence-construction)",
+  "reasons": [
+    "zero pre-impact forecasting instances could be constructed at any split -- every asset's observed activity fits inside a single Delta-t window (no earlier 'cut point' exists before the asset's first IMP window, and/or no later window exists to confirm a negative)."
+  ],
+  "instance_summary": {
+    "n_total": 0,
+    "n_positive_total": 0,
+    "n_train": 0,
+    "n_positive_train": 0,
+    "n_val": 0,
+    "n_positive_val": 0,
+    "n_test": 0,
+    "n_positive_test": 0
+  },
+  "_run_metadata": {
+    "dataset": "toniot",
+    "seed": 42,
+    "config_hash": "4fe9230d5cf4",
+    "timestamp_utc": "2026-08-11T19:39:25Z",
+    "split": null,
+    "mapping_variant": "primary",
+    "is_real_data": true,
+    "data_source_note": "Real dataset verified against published class distributions; see MANUSCRIPT_RESULT_SUMMARY.md."
+  }
+}

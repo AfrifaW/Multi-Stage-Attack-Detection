@@ -1,0 +1,4 @@
+stage_mapping_variant,macro_f1,f1_benign,f1_iad,f1_lmep,f1_imp,pr_auc,capture_at_5pct,dataset,seed,config_hash,timestamp_utc,mapping_variant,is_real_data
+primary,0.3430966898954704,0.9973867595818815,0.0,0.0,0.375,,,toniot,42,4fe9230d5cf4,2026-08-11T15:18:20Z,primary,True
+conservative,0.3742924014805138,0.9971696059220553,0.0,0.0,0.5,,,toniot,42,4fe9230d5cf4,2026-08-11T15:18:20Z,primary,True
+expanded,0.40479302832244013,0.9969498910675382,0.4,0.0,0.2222222222222222,,,toniot,42,4fe9230d5cf4,2026-08-11T15:18:20Z,primary,True

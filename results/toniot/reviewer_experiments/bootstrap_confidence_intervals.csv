@@ -1,0 +1,2 @@
+metric,point,lower,upper,ci,n_valid_iterations,n_unique_assets,dataset,seed,config_hash,timestamp_utc,mapping_variant,is_real_data
+macro_f1,0.3430966898954704,0.27806651662481785,0.4907411245641206,0.95,50,2307,toniot,42,4fe9230d5cf4,2026-08-11T15:24:06Z,primary,True
